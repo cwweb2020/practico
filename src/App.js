@@ -105,7 +105,9 @@ let day = d.getDate();
 
 const month = d.getMonth() + 1;
 // console.log(month);
- 
+ console.log(d.getFullYear());
+ console.log(d.getHours());
+  
 
 
 
