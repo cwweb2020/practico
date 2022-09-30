@@ -107,7 +107,24 @@ const month = d.getMonth() + 1;
 // console.log(month);
  // console.log(d.getFullYear());
  // console.log(d.getHours());
-  
+
+ 
+ const carrito = [
+  {nombre : 'monitor 50 pulgadas', precio : 500},
+  {nombre: 'televisor 65 pulgadas', precio: 8000},
+  {nombre: 'tablet 7 pulgadas', precio: 600,descuento: true},
+  {nombre: 'auriculares', precio: 200},
+  {nombre: 'teclado' ,precio: 100},
+  {nombre: 'celular', precio: 700}
+]
+
+for(let i = 0; i < carrito.length; i++){
+  if(carrito[i].descuento){
+   console.log(`este articulo ${carrito[i].nombre} tiene descuento`)
+   continue
+  }
+   // console.log(carrito[i])
+}
 
 
 
